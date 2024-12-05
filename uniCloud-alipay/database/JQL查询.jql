@@ -1,0 +1,17 @@
+// const db = uniCloud.databaseForJQL()
+// db.collection("favorite").add([{
+//     "article_id": "66a9f4a07f3a1ea14b24bb11",
+//     "create_date": 1722929717672,
+//     "user_id": "669e508655a0d0989b29e4e9"
+// },{
+//     "article_id": "66a9f0949eb7c090915afaa9",
+//     "create_date": 1722929717672,
+//     "user_id": "669e508655a0d0989b29e4e9"
+// }]) // 增
+// db.collection("classify-Info").where('xxxx').remove() // 删
+
+		db.collection("favorite").add({
+    "article_id": "66a9f0949eb7c090915afaa9",
+    "create_date": 1722839100908,
+    "user_id": "66a35d160c04326bf4e352b5"
+}) // 增

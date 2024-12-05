@@ -1,0 +1,28 @@
+[
+	{
+		"IndexName": "sort_", 
+		"MgoKeySchema": {  
+			"MgoIndexKeys": [
+				{
+					"Name": "sort", 
+					"Direction": "1" 
+				}
+			],
+			"MgoIsUnique": false, 
+			"MgoIsSparse": false 
+		}
+	},
+	{
+		"IndexName": "create_date_", 
+		"MgoKeySchema": {  
+			"MgoIndexKeys": [
+				{
+					"Name": "create_date", 
+					"Direction": "-1" 
+				}
+			],
+			"MgoIsUnique": false, 
+			"MgoIsSparse": false 
+		}
+	}
+]
